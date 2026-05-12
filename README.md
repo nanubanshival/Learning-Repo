@@ -1,16 +1,27 @@
 # Learning-Repo
-# DBLB POS — Mobile QR Ordering System
+# DBLB POS — Mobile QR Ordering
 
-A multi-tenant Blazor Server POS system built with .NET 8 and SQL Server, featuring secure public QR-based billing and table ordering flows.
+Multi-tenant POS system built with Blazor Server, .NET 8, and SQL Server.
 
-Customers can:
-- Scan invoice QR codes to view bills instantly
-- Scan table QR codes to order without login/apps
-- Place kiosk orders directly from mobile devices
+## Features
+- QR-based bill viewing
+- Table QR ordering system
+- Secure encrypted QR tokens
+- Mobile responsive kiosk flow
+- Tenant-aware public APIs
 
-Focused areas:
-- Secure tokenized QR routing
-- Anonymous customer flows
-- Multi-tenant architecture
-- Mobile-first responsive UI
-- Production-safe public endpoints
+## Tech Stack
+- .NET 8
+- Blazor Server
+- SQL Server
+- QRCoder
+- AES-GCM Encryption
+
+## Highlights
+- Prevented IDOR vulnerabilities using encrypted URL tokens
+- Built anonymous customer ordering flows
+- Improved mobile ordering experience
+- Added secure public invoice access
+
+## Status
+Actively improving public QR and kiosk ordering experience.
