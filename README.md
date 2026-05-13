@@ -25,3 +25,6 @@ Multi-tenant POS system built with Blazor Server, .NET 8, and SQL Server.
 
 ## Status
 Actively improving public QR and kiosk ordering experience.
+
+# Author
+Nanu Banshival
